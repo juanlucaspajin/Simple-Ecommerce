@@ -1,11 +1,15 @@
 .item-container {
-   margin-top: 25px; 
-   border: 1px solid gray;
-   border-radius: 5px;
+   margin-top: 25px;
+   /* border: 1px solid gray; */
+   /* border-radius: 5px; */
    height: 300px;
    text-align: center;
 }
 
 .item-container .welcome-text {
     margin: 10px 0 10px 0;
+}
+
+.card-container {
+    width: 18rem;
 }
