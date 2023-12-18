@@ -1,3 +1,5 @@
+import { formatMoney } from '../../utils/moneyFormatter'
+
 function ItemDescription({ description, price }) {
     return (
         <div>
@@ -6,7 +8,7 @@ function ItemDescription({ description, price }) {
             </p>
 
             <p>
-                Su precio es de ${price} ARS
+                Su precio es de {formatMoney(price)} ARS
             </p>
         </div>
     );

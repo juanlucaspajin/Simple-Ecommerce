@@ -19,6 +19,7 @@ function CheckoutBrief() {
             <div className="row">
                 <div className="col-md-12">
                     <button type="button" className="btn btn-danger" onClick={() => clearCartItems()}>Borrar carrito</button>
+                    <button type="button" className="btn btn-success mx-2">Pagar</button>
                 </div>
             </div>
         )
